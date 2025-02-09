@@ -5,6 +5,14 @@
 // Good programmers write code that humans can understand.
 // - Martin Fowler.
 
+/**============================================
+ *              New Tricks
+ *=============================================**/
+- element.remove()
+  
+- if(element.contains(subElement) {
+  //then do this...
+}
 
 /**============================================
  *             Function Invocation
