@@ -8,11 +8,21 @@
 /**============================================
  *              New Tricks
  *=============================================**/
-- element.remove()
+element.remove()
   
-- if(element.contains(subElement) {
+if(element.contains(subElement) {
   //then do this...
 }
+
+// Normally when you want to link an element to another one by using Array method find()
+const projectResult = ManageProject.projects.find((p) => {
+  // Loop through task array and see if title = target
+  return p.title === projectTitle;
+
+  // if true
+  if(projectResult) {
+    // Then do this...
+});
 
 /**============================================
  *             Function Invocation
