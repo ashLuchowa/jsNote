@@ -28,6 +28,14 @@ const projectResult = ManageProject.projects.find((p) => {
 const form = document.querySelector('form');
 form.reset(); // will reset the form
 
+// If a div keeps repeating, check for existing container
+// We need to store the main container inside a variable because it is normally created at the same time the function is run
+const existingDiv = document.querySelector('.main-container');
+// If it exist, then use remove()
+if(existingDiv) {
+  existingDiv.remove();
+}
+
 /**============================================
  *             Function Invocation
  *=============================================**/
