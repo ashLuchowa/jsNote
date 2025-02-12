@@ -24,6 +24,10 @@ const projectResult = ManageProject.projects.find((p) => {
     // Then do this...
 });
 
+// reset() is actually a built-in function to reset forms
+const form = document.querySelector('form');
+form.reset(); // will reset the form
+
 /**============================================
  *             Function Invocation
  *=============================================**/
